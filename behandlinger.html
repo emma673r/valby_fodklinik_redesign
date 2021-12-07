@@ -5,25 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <title>Emmas side</title>
-    <link rel="stylesheet" href="styles/faelles.css" />
+    <title>Behandlinger</title>
     <link rel="stylesheet" href="styles/behandlinger.css" />
   </head>
   <body>
     <header>
       <h1>VALBY FODKLINIK</h1>
       <nav>
-        
-          <img id="burger_icon" src="pics/burger_icon.png" alt="burger" />
-          <ul id="burger_menu">
-            <li><a href="index.html">Forside</a></li>
-            <li><a href="behandlinger.html">Behandlinger</a></li>
-            <li><a href="mikropigmentering.html">Mikropigmentering</a></li>
-            <li><a href="priser.html">Priser</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-          </ul>
-        
+        <ul class="burger_menu">
+          <li><a href="#">Forside</a></li>
+          <li><a href="behandlinger.html">Behandlinger</a></li>
+          <li><a href="#">Mikropigmentering</a></li>
+          <li><a href="#">Priser</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+        <button id="hamburger">
+          <div id="burger_closed"></div>
+          <div id="burger_opened"></div>
+        </button>
       </nav>
+     
     </header>
     <main>
       <section id="first_section">
@@ -48,7 +49,6 @@
       </div>
     </footer>
 
-    <script src="login.js"></script>
     <script src="script_burger.js"></script>
   </body>
 </html>
