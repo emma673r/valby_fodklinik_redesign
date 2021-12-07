@@ -1,1 +1,29 @@
 /* isabellas side */
+/* definere box*/
+img {
+  max-width: 100%;
+}
+h1 {
+  position: center;
+}
+.fodbehandlinger {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.navn {
+    grid-column: 1/2;
+    font-size: 1rem;
+}
+
+
+.gavekort {
+}
+/*
+.gavekort {
+    width: 100%;
+    aspect-ratio: 1380/760;
+   background-image: url(svg/gavekort.svg);
+   background-size: cover;
+   position: relative;
+}*/
