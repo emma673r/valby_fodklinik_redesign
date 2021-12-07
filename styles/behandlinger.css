@@ -1,3 +1,12 @@
 /* emmas side */
 
 /* sætte splash billede som bg billede bag logoen */
+
+#behandlinger_splash {
+  background-image: url(pics/);
+}
+
+
+nav img {
+  width: 30px;
+}
