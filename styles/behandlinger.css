@@ -18,14 +18,14 @@ header button:hover {
 }
 
 #burger_closed {
-  background-image: url(pics/burger_icon.png);
+  background-image: url(../pics/burger_icon.png);
   background-size: 100%;
   width: 25px;
   height: 25px;
 }
 
 #burger_opened {
-  background-image: url(pics/burger_closed.png);
+  background-image: url(../pics/burger_closed.png);
   background-size: 100%;
   width: 25px;
   height: 25px;
