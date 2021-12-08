@@ -13,6 +13,7 @@ img {
   margin-right: auto;
   width: 10%;
 }
+
 h1 {
   font-family: "EB Garamond", serif;
   text-align: center;
@@ -46,6 +47,36 @@ p {
   padding: 5px;
 }
 
+@media (min-width: 600px) {
+  * {
+    margin: 5px;
+    padding: 5px;
+  }
+  h1 {
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    font-size: 3rem;
+  }
+  h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+  }
+  h3 {
+    font-family: "EB Garamond", serif;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #last_section h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+  p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+  }
+}
+
 /*
 .gavekort {
     width: 100%;
@@ -54,3 +85,11 @@ p {
    background-size: cover;
    position: relative;
 }*/
+
+.animation {
+    border: 2px solid black;
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+    overflow: hidden;
+}
