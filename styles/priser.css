@@ -4,21 +4,26 @@ img {
   max-width: 100%;
 }
 h1 {
-  position: center;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+}
+h2 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+}
+p {
+  font-family: "Raleway", sans-serif;
 }
 .fodbehandlinger {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 22fr;
 }
 
 .navn {
-    grid-column: 1/2;
-    font-size: 1rem;
+  grid-column: 1/2;
 }
 
-
-.gavekort {
-}
 /*
 .gavekort {
     width: 100%;
