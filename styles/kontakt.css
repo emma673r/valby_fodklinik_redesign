@@ -1,1 +1,21 @@
 /* daniels side */
+
+main {
+  
+}
+
+
+
+p {
+    margin-top: .4rem;
+  }
+
+  .infotitel{
+    font-weight: bold;
+    
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
