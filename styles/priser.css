@@ -2,10 +2,16 @@
 /* definere box*/
 * {
   margin: 2px;
-  padding: 5px;
+  padding: 3.5px;
 }
 img {
   max-width: 100%;
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
 }
 h1 {
   font-family: "EB Garamond", serif;
@@ -14,7 +20,7 @@ h1 {
 }
 h2 {
   font-family: "EB Garamond", serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 h3 {
   font-family: "EB Garamond", serif;
@@ -23,7 +29,7 @@ h3 {
 }
 #last_section h2 {
   font-family: "EB Garamond", serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 p {
