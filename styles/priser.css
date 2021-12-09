@@ -1,5 +1,4 @@
 /* isabellas side */
-/* definere box*/
 * {
   margin: 2px;
   padding: 3.5px;
@@ -46,7 +45,7 @@ p {
   margin: 1px;
   padding: 5px;
 }
-
+/*skærm*/
 @media (min-width: 600px) {
   * {
     margin: 5px;
