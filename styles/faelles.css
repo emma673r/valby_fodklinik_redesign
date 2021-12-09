@@ -5,11 +5,13 @@ body {
   background-color: white;
   color: black;
   font-size: 1rem;
+  font-family: "Raleway", sans-serif;
 }
 
 h1 {
   font-family: "EB Garamond", serif;
   padding-top: 0.5rem;
+  padding-right: 1rem;
 }
 
 .wrapper {
@@ -17,8 +19,13 @@ h1 {
   gap: 10px;
 }
 
+header img {
+  max-width: 80%;
+}
+
 #logo {
-  max-width: 20%;
+  border: none;
+  background: none;
 }
 
 h2 {
@@ -29,8 +36,8 @@ h3 {
   font-family: "EB Garamond", serif;
 }
 
-p {
-  font-family: "Raleway", sans-serif;
+footer img {
+  max-width: 60%;
 }
 
 footer {
@@ -41,22 +48,27 @@ footer {
   align-items: center;
   background-color: hsl(191, 55%, 19%);
   border-style: none;
+  color: white;
 }
 
 footer p {
   color: white;
 }
 
-footer a {
-  color: white;
+footer button {
+  background: none;
+  border: none;
 }
 
-#insta {
-  border-style: none;
-  background-color: hsl(hue, saturation, lightness);
+a {
+  text-decoration: underline;
+  color: hsl(191, 55%, 19%);
+ 
 }
 
-#facebook {
+
+header a:hover {
+ color: white;
 }
 
 * {
@@ -110,7 +122,6 @@ header button:hover {
   bottom: auto;
   z-index: 1;
   background: rgb(170, 223, 233);
-  color: white;
   list-style: none;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -134,11 +145,19 @@ main {
 
 header {
   padding-top: 1rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-bottom: 1rem;
   background-color: hsl(192, 68%, 64%);
 }
 
 ul {
   padding: none;
+}
+
+@media only screen and (min-width: 600px) {
+
+  header img {
+  max-width: 20%;
+  
+}
 }
