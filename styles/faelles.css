@@ -1,38 +1,46 @@
 /* Fælles css så kun til overordnet ting som titel og footer og header etc */
 /* daniels side */
 
-
 body {
-    background-color: white;
-    color: black;
-    padding: 2vw 5vw 2vw 5vw;
-    font-size: 1rem;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
 }
 
 h1 {
-    font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
+  padding-top: 0.5rem;
 }
 
+.wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+#logo {
+  max-width: 20%;
+}
 
 h2 {
-    font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
 
 h3 {
-    font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 footer {
-    padding: 25px 10px 5px 10px;
-    display: flex;
-    justify-content: space-between;
-    border: solid;
-    align-items: center;
-    background-color: hsl(191, 55%, 19%)
+  padding: 25px 10px 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  align-items: center;
+  background-color: hsl(191, 55%, 19%);
+  border-style: none;
 }
 
 footer p {
@@ -43,9 +51,12 @@ footer a {
   color: white;
 }
 
+#insta {
+  border-style: none;
+  background-color: hsl(hue, saturation, lightness);
+}
 
-#fb{
-  background-image: url(facebook.svg);
+#facebook {
 }
 
 * {
@@ -123,14 +134,11 @@ main {
 
 header {
   padding-top: 1rem;
- padding-left: 2rem;
- padding-bottom: 1rem;
- background-color: hsl(192, 68%, 64%);
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  background-color: hsl(192, 68%, 64%);
 }
 
 ul {
   padding: none;
 }
-
-
- 

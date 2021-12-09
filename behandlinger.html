@@ -6,11 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Behandlinger</title>
+    <link rel="stylesheet" href="styles/faelles.css" />
     <link rel="stylesheet" href="styles/behandlinger.css" />
+    <!--Her defineres favicon-->
+    <link rel="icon" type="image/svg+xml" href="svg/logo.svg" />
+    <link rel="alternate icon" href="svg/logo.svg" />
+    <link rel="mask-icon" href="svg/logo.svg" color="#ff8a01" />
+    <!--Her defineres fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>VALBY FODKLINIK</h1>
+      <div class="wrapper"><img id="logo" src="svg/logo.svg" alt="logo">
+      <h1>VALBY FODKLINIK</h1></div>
       <nav>
         <ul class="burger_menu">
           <li><a href="#">Forside</a></li>
@@ -24,7 +43,6 @@
           <div id="burger_opened"></div>
         </button>
       </nav>
-     
     </header>
     <main>
       <section id="first_section">
@@ -40,11 +58,11 @@
     <footer>
       <div>© Valby Fodklinik</div>
       <div>
-        <button>
-          <a href=""><img src="" alt="instagram" /></a>
+        <button id="insta">
+          <a href=""><img src="svg/instagram.svg" alt="instagram" /></a>
         </button>
-        <button>
-          <a href=""><img src="" alt="facebook" /></a>
+        <button id="facebook">
+          <a href=""><img src="svg/facebook.svg" alt="facebook" /></a>
         </button>
       </div>
     </footer>
