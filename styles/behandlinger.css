@@ -1,18 +1,18 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
 
 header button {
-  background-color: rgb(170, 223, 233);
-  border-radius: 25%;
+  background-color: hsl(193, 68%, 81%);
+  border-radius: 18%;
   border-style: solid;
   border-color: black;
 }
 
 header button:hover {
-  background-color: rgb(115, 151, 158);
-  border-radius: 25%;
+  background-color: hsl(199, 24%, 72%);
+  border-radius: 18%;
   border-style: solid;
   border-color: black;
 }
@@ -48,7 +48,7 @@ header button:hover {
   right: 0;
   bottom: auto;
   z-index: 1;
-  background: rgb(170, 223, 233);
+  background: hsl(193, 68%, 81%);
   color: white;
   list-style: none;
   padding-top: 1rem;
@@ -72,9 +72,10 @@ main {
 }
 
 header {
-  padding-top: 2rem;
+   padding-top: 1rem;
   padding-left: 2rem;
   padding-bottom: 1rem;
+  background-color: hsl(192, 68%, 64%);
 }
 
 footer {
@@ -87,4 +88,17 @@ footer {
 
 ul {
   padding: none;
+}
+ */
+
+
+.farve_palette {
+color: hsl(192, 62%, 87%);
+color: hsl(193, 68%, 81%);
+color: hsl(192, 68%, 64%);
+color: hsl(194, 40%, 64%);
+color: hsl(199, 24%, 72%);
+color: hsl(190, 68%, 29%);
+color: hsl(190, 0%, 100%);
+color: hsl(190, 0%, 0%);
 }

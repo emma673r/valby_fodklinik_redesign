@@ -14,41 +14,55 @@
 </head>
 <body>
     <header>
-        <h1 id="firmanavn">VALBY FODKLINIK</h1>
-        <nav>
-            
-            <ul class="burger_menu">
-            <li><a href="index.html">Forside</a></li>
-            <li><a href="behandlinger.html">Behandlinger</a></li>
-            <li><a href="mikropigmentering.html">Mikropigmentering</a></li>
-            <li><a href="priser.html">Priser</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-          </ul>
-          <button id="hamburger">
-            <div id="burger_closed"></div>
-            <div id="burger_opened"></div>
-          </button>
-          
-        </nav>
-       
-      </header>
+      <div class="wrapper">
+        <button id="logo">
+          <a 
+            href="index.html"
+            ><img src="svg/logo.svg" alt="logo"
+          /></a>
+        </button>
+        <h1>VALBY FODKLINIK</h1>
+      </div>
+      <nav>
+        <ul class="burger_menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="behandlinger.html">Behandlinger</a></li>
+          <li><a href="mikropigmentering.html">Mikropigmentering</a></li>
+          <li><a href="priser.html">Priser</a></li>
+          <li><a href="https://www.eadministration.dk/kunde/kundelogin.asp?klient=2619">Online Booking</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <button id="hamburger">
+          <div id="burger_closed"></div>
+          <div id="burger_opened"></div>
+        </button>
+      </nav>
+    </header>
 
 <main>
     
+    </div>
+
     <h2>Kontakt-Oplysninger</h2>
-    <div id="contaktblock">
+    <div class="contaktblock">
         
+        <div class="tekster">
         <p class="infotitel">Email:</p>
         <a href="mailto:valbyfodklinik@hotmail.com">valbyfodklinik@hotmail.com</a>
         
         <p class="infotitel">Web:</p>
-
+        <a href="http://valby-fodklinik.dk" target="_blank" rel="noopener">valby-fodklinik.dk</a>
 
         <p class="infotitel">Adresse:</p>
+        <p>Valby Langgade 201</p>
+        <p>2500 Valby</p>
        
         <p class="infotitel">Tlf:</p>
         <p>+45 26 20 09 76</p>
-        
+        </div>
+        <div class="map">
+            <div style="width: 100%"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=valby%20langgade%20201+(Valby%20Fodklinik)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameborder="0"><a href="https://www.gps.ie/car-satnav-gps/">best sat navs</a></iframe></div>
+        </div>
     
     </div>
 
@@ -76,14 +90,21 @@
 </main>
 
 <footer>
-    <div id="copyright">
-        <p>Copyright Lorem Ipsum</p>
-    </div>
-
-    <div id="kontaktknap">
-        <a href="kontakt.html">Kontakt</a>
-    </div>
-</footer>
+      <div>© Valby Fodklinik</div>
+      <div>
+        <button>
+          <a
+            href="https://www.instagram.com/valbyfodklinik/?utm_medium=copy_link"
+            ><img src="svg/instagram.svg" alt="instagram"
+          /></a>
+        </button>
+        <button>
+          <a href="https://www.facebook.com/Valbyfodklinik/"
+            ><img src="svg/facebook.svg" alt="facebook"
+          /></a>
+        </button>
+      </div>
+    </footer>
     <script src="login.js"></script>
     <script src="script_burger.js"></script>
 </body>
