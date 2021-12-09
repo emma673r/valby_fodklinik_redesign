@@ -1,1 +1,95 @@
 /* isabellas side */
+/* definere box*/
+* {
+  margin: 2px;
+  padding: 3.5px;
+}
+img {
+  max-width: 100%;
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+h1 {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-size: 2rem;
+}
+h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.2rem;
+}
+h3 {
+  font-family: "EB Garamond", serif;
+  font-size: 1rem;
+  text-align: center;
+}
+#last_section h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+.fodbehandlinger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background-color: hsl(199, 24, 72);*/
+  background-color: rgb(173, 211, 233);
+  margin: 1px;
+  padding: 5px;
+}
+
+@media (min-width: 600px) {
+  * {
+    margin: 5px;
+    padding: 5px;
+  }
+  h1 {
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    font-size: 3rem;
+  }
+  h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+  }
+  h3 {
+    font-family: "EB Garamond", serif;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #last_section h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+  p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+  }
+}
+
+/*
+.gavekort {
+    width: 100%;
+    aspect-ratio: 1380/760;
+   background-image: url(svg/gavekort.svg);
+   background-size: cover;
+   position: relative;
+}*/
+
+.animation {
+    border: 2px solid black;
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+    overflow: hidden;
+}

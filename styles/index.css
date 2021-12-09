@@ -1,1 +1,39 @@
-/* idas side */
+body {
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+h1 {
+}
+
+h3 {
+}
+
+article {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1200px) 1fr;
+  gap: 1rem;
+}
+
+content {
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  width: 350px;
+  height: 450px;
+}
