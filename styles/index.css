@@ -1,14 +1,12 @@
 body {
-  text-align: center;
+  
   padding-left: 200px;
   padding-right: 200px;
 }
-
-h1 {
+h2 {
+  text-align: center;
 }
 
-h3 {
-}
 
 article {
   display: grid;
@@ -27,8 +25,7 @@ section {
   gap: 1rem;
 }
 
-content {
-}
+
 
 img {
   width: 100%;
