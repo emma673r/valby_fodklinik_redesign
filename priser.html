@@ -30,11 +30,17 @@
     <header>
       <div class="wrapper">
         <button id="logo">
+<<<<<<< HEAD
+          <a 
+            href="index.html"
+            ><img id="logo_navn" src="svg/logo_navn.svg" alt="logo"
+          /></a>
+=======
           <a href="index.html"><img src="svg/logo.svg" alt="logo" /></a>
+>>>>>>> fbda658a0b49460733d427936818ae6290363043
         </button>
-        <h1>VALBY FODKLINIK</h1>
       </div>
-      <nav>
+      <!-- <nav>
         <ul class="burger_menu">
           <li><a href="index.html">Forside</a></li>
           <li><a href="behandlinger.html">Behandlinger</a></li>
@@ -52,19 +58,35 @@
           <div id="burger_closed"></div>
           <div id="burger_opened"></div>
         </button>
-      </nav>
+      </nav> -->
+          <nav>
+        <div id="menuknap">☰</div>
+        <ul id="menu" class="hidden">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="behandlinger.html">Behandlinger</a></li>
+          <li><a href="mikropigmentering.html">Mikropigmentering</a></li>
+          <li><a href="priser.html">Priser</a></li>
+          <li><a href="https://www.eadministration.dk/kunde/kundelogin.asp?klient=2619">Online Booking</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
     </header>
 
     <!--section her er for første del af prisliste-->
     <!--priser fodbehandling-->
-
+<div id="grid">
     <section id="section1">
-      <h1>Pris Liste</h1>
+      <h1>Prisliste</h1>
       <h2>Fodbehandlinger</h2>
+      <div class="box1">
       <section class="section_wrapper">
         <div class="fodbehandlinger">
+            <div class="textbox1">
           <p>Fodbehandling</p>
+        </div>
+        <div class="textbox2">
           <p>435,-</p>
+        </div>
         </div>
         <div class="fodbehandlinger">
           <p>Fodbehandling +</p>
@@ -75,7 +97,7 @@
           <p>435,-</p>
         </div>
         <div class="fodbehandlinger">
-          <p>Udvidet odbehandling +</p>
+          <p>Udvidet fodbehandling +</p>
           <p>505,-</p>
         </div>
         <div class="fodbehandlinger">
@@ -150,6 +172,7 @@
           <p>Middel mod neglesvamp på spray</p>
           <p>119,-</p>
         </div>
+    </div>
       </section>
     </section>
     <!--her defineres indlæg-->
@@ -160,6 +183,7 @@
           <p>1 sæt specielt tilpasset indlæg inkl. opfølgning.</p>
           <p>915,-</p>
         </div>
+    
       </section>
     </section>
     <!--her defineres sugar wax-->
@@ -243,16 +267,18 @@
       </section>
       <h3>Diverse produkter kan købes</h3>
     </section>
-    <div id="logo1">
+    
+    <!--her defineres gavekort-->
+    <section id="last_section">    
+        <div id="logo1">
       <img src="svg/logo.svg" alt="logo" />
     </div>
-    <!--her defineres gavekort-->
-    <section id="last_section">
       <h2>Det er muligt at købe GAVEKORT til alle behandlinger</h2>
       <div class="gavekort">
         <img src="svg/gavekort.svg" alt="gavekort" />
       </div>
     </section>
+</div>
     <footer>
       <div>© Valby Fodklinik</div>
       <div>
@@ -268,9 +294,11 @@
           /></a>
         </button>
       </div>
+
     </footer>
     <script src="login.js"></script>
-    <script src="script_burger.js"></script>
+    <!-- <script src="script_burger.js"></script> -->
+    <script src="test.js"></script> 
   </body>
 </html>
 
