@@ -27,9 +27,33 @@
     />
   </head>
   <body>
-    <div id="logo">
-      <img src="svg/logo.svg" alt="logo" />
-    </div>
+    <header>
+      <div class="wrapper">
+        <button id="logo">
+          <a href="index.html"><img src="svg/logo.svg" alt="logo" /></a>
+        </button>
+        <h1>VALBY FODKLINIK</h1>
+      </div>
+      <nav>
+        <ul class="burger_menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="behandlinger.html">Behandlinger</a></li>
+          <li><a href="mikropigmentering.html">Mikropigmentering</a></li>
+          <li><a href="priser.html">Priser</a></li>
+          <li>
+            <a
+              href="https://www.eadministration.dk/kunde/kundelogin.asp?klient=2619"
+              >Online Booking</a
+            >
+          </li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <button id="hamburger">
+          <div id="burger_closed"></div>
+          <div id="burger_opened"></div>
+        </button>
+      </nav>
+    </header>
 
     <!--section her er for første del af prisliste-->
     <!--priser fodbehandling-->
@@ -138,6 +162,7 @@
         </div>
       </section>
     </section>
+    <!--her defineres sugar wax-->
     <section id="section3">
       <h2>Sugar wax</h2>
       <section class="section_wrapper">
@@ -218,7 +243,7 @@
       </section>
       <h3>Diverse produkter kan købes</h3>
     </section>
-    <div id="logo">
+    <div id="logo1">
       <img src="svg/logo.svg" alt="logo" />
     </div>
     <!--her defineres gavekort-->
@@ -228,7 +253,24 @@
         <img src="svg/gavekort.svg" alt="gavekort" />
       </div>
     </section>
+    <footer>
+      <div>© Valby Fodklinik</div>
+      <div>
+        <button>
+          <a
+            href="https://www.instagram.com/valbyfodklinik/?utm_medium=copy_link"
+            ><img src="svg/instagram.svg" alt="instagram"
+          /></a>
+        </button>
+        <button>
+          <a href="https://www.facebook.com/Valbyfodklinik/"
+            ><img src="svg/facebook.svg" alt="facebook"
+          /></a>
+        </button>
+      </div>
+    </footer>
     <script src="login.js"></script>
+    <script src="script_burger.js"></script>
   </body>
 </html>
 

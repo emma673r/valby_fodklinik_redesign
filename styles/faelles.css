@@ -1,51 +1,74 @@
 /* Fælles css så kun til overordnet ting som titel og footer og header etc */
 /* daniels side */
 
-
 body {
-    background-color: white;
-    color: black;
-    padding: 2vw 5vw 2vw 5vw;
-    font-size: 1rem;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
 }
 
 h1 {
-    font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
 }
 
+.wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+header img {
+  max-width: 80%;
+}
+
+#logo {
+  border: none;
+  background: none;
+}
 
 h2 {
-    font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
 
 h3 {
-    font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
 
-p {
-    font-family: 'Raleway', sans-serif;
+footer img {
+  max-width: 60%;
 }
 
 footer {
-    padding: 25px 10px 5px 10px;
-    display: flex;
-    justify-content: space-between;
-    border: solid;
-    align-items: center;
-    background-color: hsl(191, 55%, 19%)
+  padding: 25px 10px 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  align-items: center;
+  background-color: hsl(191, 55%, 19%);
+  border-style: none;
+  color: white;
 }
 
 footer p {
   color: white;
 }
 
-footer a {
-  color: white;
+footer button {
+  background: none;
+  border: none;
+}
+
+a {
+  text-decoration: underline;
+  color: hsl(191, 55%, 19%);
+ 
 }
 
 
-#fb{
-  background-image: url(facebook.svg);
+header a:hover {
+ color: white;
 }
 
 * {
@@ -99,7 +122,6 @@ header button:hover {
   bottom: auto;
   z-index: 1;
   background: rgb(170, 223, 233);
-  color: white;
   list-style: none;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -123,9 +145,9 @@ main {
 
 header {
   padding-top: 1rem;
- padding-left: 2rem;
- padding-bottom: 1rem;
- background-color: hsl(192, 68%, 64%);
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  background-color: hsl(192, 68%, 64%);
 }
 
 /* footer {
@@ -140,5 +162,10 @@ ul {
   padding: none;
 }
 
+@media only screen and (min-width: 600px) {
 
- 
+  header img {
+  max-width: 20%;
+  
+}
+}
