@@ -140,11 +140,7 @@ p {
   position: relative;
   overflow: hidden;
 }
-@media (min-width: 1000px) {
-  #padding {
-    padding: 200px;
-  }
-}
+
 /* her defineres grid*/
 
 /*burger menu*/
