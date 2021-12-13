@@ -1,8 +1,18 @@
+
+
+
 img {
   width: 100%;
   height: 400px;
 }
 .boxed1 {
+  width: 324px;
+  height: 385px;
+  margin-bottom: 20px; 
+  background-color:  hsl(193, 68%, 81%);
+  text-align: center;
+}
+.boxed2 {
   width: 324px;
   height: 385px;
   margin-bottom: 20px; 
@@ -34,6 +44,14 @@ p {
 }
 
 @media (min-width:600px) {
+  #grid {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 1fr auto;
+  }
+  .wrapper {
+    grid-column: 2/3;
+  }
 #section2 {
     display: grid;
   /*grid-template-columns: 1fr minmax(auto, 1200px) 1fr;*/
