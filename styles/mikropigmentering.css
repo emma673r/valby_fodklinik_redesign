@@ -1,1 +1,67 @@
 /* isabells side */
+
+* {
+  margin: 2px;
+  padding: 3.5px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#pic_8 {
+  max-width: 80%;
+}
+
+.priser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background-color: hsl(199, 24, 72);*/
+  background-color: rgb(173, 211, 233);
+  margin: 1px;
+  padding: 5px;
+}
+
+/* @media (max-width: 600px;) {
+} */
+
+#container_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+#container_5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+@media (min-width: 600px) {
+  #container_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  #pic_1 {
+    order: 2;
+  }
+
+  #pic_4 {
+    order: 2;
+  }
+
+  #container_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  #container_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
