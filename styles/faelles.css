@@ -1,5 +1,5 @@
 /* Fælles css så kun til overordnet ting som titel og footer og header etc */
-/* daniels side */
+/*  side */
 
 body {
   background-color: white;
@@ -19,13 +19,22 @@ h1 {
   gap: 10px;
 }
 
-header img {
+/* header img {
   max-width: 80%;
+} */
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
 #logo {
   border: none;
   background: none;
+}
+
+#logo img {
+  width: 90%;
 }
 
 h2 {
@@ -139,7 +148,7 @@ header button:hover {
   padding-left: 30%;
   border-style: solid;
   border-width: 3px;
-  border-color:rgb(170, 223, 233);
+  border-color: rgb(170, 223, 233);
   background-color: white;
 }
 
@@ -159,20 +168,41 @@ header {
   background-color: hsl(192, 68%, 64%);
 }
 
-/* footer {
-  padding-top: 2rem;
-  padding-left: 1rem;
-  padding-bottom: 0.5rem;
-  display: flex;
-  gap: 20px;
-} */
-
 ul {
   padding: none;
 }
 
 @media only screen and (min-width: 600px) {
-  header img {
-    max-width: 20%;
+  #hamburger {
+    display: none;
+  }
+
+  .burger_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transform: translateY(0);
+    transition: transform 0.2s;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0%;
+    background: none;
+    gap: 3%;
+    font-size: 1.5rem;
+  }
+
+  .burger_menu li {
+    border-style: none;
+    background: none;
+    line-height: normal;
+    padding: 0;
+    gap: 30px;
+  }
+
+  #logo {
+    display: flex;
+    justify-content: center;
   }
 }
