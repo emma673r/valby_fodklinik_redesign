@@ -38,3 +38,10 @@ img {
 figure {
   max-width: 99%;
 }
+
+#first_section {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  padding-bottom: 4px;
+}
