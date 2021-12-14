@@ -1,7 +1,13 @@
 /* isabellas side */
-* {
-  margin: 3px;
-  padding: 3.5px;
+html {
+    --primary--color: 225, 40%, 46%;
+    --secondary--color: 224, 28%, 50%;
+    --third--color: 224, 28%, 50%;
+    --third--color: 224, 38%, 57%;
+}
+main {
+  margin: 5px;
+  padding: 15px;
 }
 
 img {
@@ -21,10 +27,12 @@ h1 {
   font-family: "EB Garamond", serif;
   text-align: center;
   font-size: 2rem;
+  padding: 10px;
 }
 h2 {
   font-family: "EB Garamond", serif;
   font-size: 1.2rem;
+  padding: 5px;
 }
 h3 {
   font-family: "EB Garamond", serif;
@@ -39,6 +47,7 @@ h3 {
 p {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
+  padding: 3px;
 }
 
 .fodbehandlinger {
@@ -148,6 +157,7 @@ p {
 /* her defineres grid*/
 
 /*burger menu*/
+
 .hidden {
   /*    display: none;*/
   /*    transform: scale(0);*/
@@ -162,7 +172,7 @@ p {
   position: sticky;
   z-index: 50;
 }
-
+/*emma her tror jeg*/
 #menu {
   list-style-type: none;
   transition: transform 0.3s;
