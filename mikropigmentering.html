@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Isabells side</title>
+    <!-- CSS styling -->
     <link rel="stylesheet" href="styles/faelles.css" />
     <link rel="stylesheet" href="styles/mikropigmentering.css" />
+    <!-- fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,23 +18,30 @@
     />
   </head>
   <body>
-    <header>
-      <h1>VALBY FODKLINIK</h1>
-      <nav>
-        <ul class="burger_menu">
-          <li><a href="#">Forside</a></li>
-          <li><a href="behandlinger.html">Behandlinger</a></li>
-          <li><a href="#">Mikropigmentering</a></li>
-          <li><a href="#">Priser</a></li>
-          <li><a href="#">Kontakt</a></li>
-        </ul>
-        <button id="hamburger">
-          <div id="burger_closed"></div>
-          <div id="burger_opened"></div>
+   <header>
+      <div class="wrapper">
+        <button id="logo">
+          <a 
+            href="index.html"
+            ><img id="logo_navn" src="svg/logo_navn.svg" alt="logo"
+          />
         </button>
-      </nav>
+      </div>
+
+      <nav>
+        <div id="menuknap">☰</div>
+        <ul id="menu" class="hidden">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="behandlinger.html">Behandlinger</a></li>
+          <li><a href="mikropigmentering.html">Mikropigmentering</a></li>
+          <li><a href="priser.html">Priser</a></li>
+          <li><a href="https://www.eadministration.dk/kunde/kundelogin.asp?klient=2619">Online Booking</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
     </header>
-    <h1>Mikropigmentering (/Permanent makeup/microblading?)</h1>
+
+    <h1>Mikropigmentering</h1>
 
     <section id="container_1">
       <div id="pic_1"><img src="pics/bryn1.jpg" alt="microblading_1" /></div>
@@ -245,15 +254,22 @@
       <div>© Valby Fodklinik</div>
       <div>
         <button>
-          <a href=""><img src="" alt="instagram" /></a>
+          <a
+            href="https://www.instagram.com/valbyfodklinik/?utm_medium=copy_link"
+            ><img src="svg/instagram.svg" alt="instagram"
+          /></a>
         </button>
         <button>
-          <a href=""><img src="" alt="facebook" /></a>
+          <a href="https://www.facebook.com/Valbyfodklinik/"
+            ><img src="svg/facebook.svg" alt="facebook"
+          /></a>
         </button>
       </div>
+
     </footer>
 
     <script src="login.js"></script>
+    <script src="test.js"></script>
   </body>
 </html>
 
