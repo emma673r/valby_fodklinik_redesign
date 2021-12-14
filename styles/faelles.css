@@ -1,5 +1,5 @@
 /* Fælles css så kun til overordnet ting som titel og footer og header etc */
-/* daniels side */
+/*  side */
 
 body {
   background-color: white;
@@ -7,11 +7,16 @@ body {
   font-size: 1rem;
   font-family: "Raleway", sans-serif;
 }
+p {
+  line-height: 140%;
+  padding-top: 1rem;
+}
 
 h1 {
   font-family: "EB Garamond", serif;
   padding-top: 0.5rem;
   padding-right: 1rem;
+  font-size: 3rem;
 }
 
 .wrapper {
@@ -19,8 +24,13 @@ h1 {
   gap: 10px;
 }
 
-header img {
+/* header img {
   max-width: 80%;
+} */
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
 #logo {
@@ -28,12 +38,20 @@ header img {
   background: none;
 }
 
+#logo img {
+  width: 90%;
+}
+
 h2 {
   font-family: "EB Garamond", serif;
+  font-size: 2rem;
+  padding-top: 2rem;
 }
 
 h3 {
   font-family: "EB Garamond", serif;
+  font-size: 1.5rem;
+  padding-top: 1rem;
 }
 
 footer img {
@@ -63,12 +81,10 @@ footer button {
 a {
   text-decoration: underline;
   color: hsl(191, 55%, 19%);
- 
 }
 
-
 header a:hover {
- color: white;
+  color: white;
 }
 
 * {
@@ -129,9 +145,20 @@ header button:hover {
   padding-right: 2rem;
   border-bottom-left-radius: 12%;
   border-bottom-right-radius: 12%;
+  line-height: 40px;
   display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* 
+  gap: 20px;
+  flex-wrap: wrap; */
+}
+
+.burger_menu li {
+  padding-left: 30%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(170, 223, 233);
+  background-color: white;
 }
 
 .showMenu {
@@ -150,22 +177,42 @@ header {
   background-color: hsl(192, 68%, 64%);
 }
 
-/* footer {
-  padding-top: 2rem;
-  padding-left: 1rem;
-  padding-bottom: 0.5rem;
-  display: flex;
-  gap: 20px;
-} */
-
 ul {
   padding: none;
 }
 
 @media only screen and (min-width: 600px) {
+  #hamburger {
+    display: none;
+  }
 
-  header img {
-  max-width: 20%;
-  
-}
+  .burger_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transform: translateY(0);
+    transition: transform 0.2s;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0%;
+    background: none;
+    gap: 3%;
+    font-size: 1.5rem;
+  }
+
+  .burger_menu li {
+    border-style: none;
+    background: none;
+    line-height: normal;
+    padding: 0;
+    gap: 30px;
+  }
+
+  #logo {
+    display: flex;
+    justify-content: center;
+  }
+
 }
