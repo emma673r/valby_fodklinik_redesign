@@ -1,5 +1,8 @@
 /* daniels side */
 
+body {
+  margin: .5rem;
+}
 
 p {
     margin-top: .4rem;
@@ -15,17 +18,34 @@ p {
     justify-content: center;
   }
 
-.contaktblock{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px ;
-}
+  .contaktblock{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr; 
+    gap: 10px ;
+  }
 
 .map {
-  grid-column: 2/2;
+  grid-column: 1/2;
   }
+
 
 .tekster {
   grid-column: 1/1;
   background-color: hsla(193.1,69.6%,60%,0.3);
 }
+
+@media (min-width: 600px) {
+  .contaktblock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr; 
+    gap: 10px ;
+  }
+
+
+  .map {
+    grid-column: 2/2;
+    }
+}
+

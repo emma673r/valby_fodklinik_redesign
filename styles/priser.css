@@ -159,6 +159,8 @@ p {
   display: inline-block;
   color: rgb(0, 0, 0);
   font-size: 2rem;
+  position: sticky;
+  z-index: 50;
 }
 
 #menu {
