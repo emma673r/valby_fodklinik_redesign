@@ -1,10 +1,7 @@
 
 
 
-img {
-  width: 100%;
-  /* height: 550px; */
-}
+
 .boxed1 {
   width: 324px;
   height: 385px;
@@ -78,7 +75,7 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr auto ;
   width: 1410px;
-  height: 500px;
+  height: 900px;
 }
 
 #section5 {
@@ -93,7 +90,8 @@ p {
   /*grid-template-columns: 1fr minmax(auto, 1200px) 1fr;*/
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr auto ;
-  gap: 50px;
+  gap: 20px;
+  height: 800px;
 }
 
 .box1 {
@@ -130,14 +128,14 @@ section {
 } 
 .boxed1 {
   width: 400px;
-  height: 450px;
+  height: 600px;
   margin-bottom: 20px; 
   background-color:  hsl(193, 68%, 81%);
   text-align: center;
 }
 .boxed2 {
   width: 400px;
-  height: 600px;
+  height: 700px;
   margin-bottom: 20px; 
   background-color:  hsl(193, 68%, 81%);
   text-align: center;
