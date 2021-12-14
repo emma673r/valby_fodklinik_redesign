@@ -45,3 +45,15 @@ figure {
   top: 0;
   padding-bottom: 4px;
 }
+
+em {
+  color: hsl(190, 68%, 29%);
+  font-size: larger;
+}
+
+@media only screen and (min-width: 600px) {
+  #first_section ul {
+    justify-content: space-around;
+  }
+  
+}

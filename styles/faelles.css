@@ -7,11 +7,16 @@ body {
   font-size: 1rem;
   font-family: "Raleway", sans-serif;
 }
+p {
+  line-height: 140%;
+  padding-top: 1rem;
+}
 
 h1 {
   font-family: "EB Garamond", serif;
   padding-top: 0.5rem;
   padding-right: 1rem;
+  font-size: 3rem;
 }
 
 .wrapper {
@@ -39,10 +44,14 @@ img {
 
 h2 {
   font-family: "EB Garamond", serif;
+  font-size: 2rem;
+  padding-top: 2rem;
 }
 
 h3 {
   font-family: "EB Garamond", serif;
+  font-size: 1.5rem;
+  padding-top: 1rem;
 }
 
 footer img {
@@ -205,4 +214,5 @@ ul {
     display: flex;
     justify-content: center;
   }
+
 }
