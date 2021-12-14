@@ -3,7 +3,7 @@
 
 img {
   width: 100%;
-  /* height: 400px; */
+  /* height: 550px; */
 }
 .boxed1 {
   width: 324px;
@@ -142,15 +142,9 @@ section {
   background-color:  hsl(193, 68%, 81%);
   text-align: center;
 }
-
-img {
-   /*width: 100%;
-  height: auto;
-  display: block;
-  /* width: 400px;
-  height: 500px; */
-    /*margin-left: auto;
-    margin-right: auto;
-  /* width: 65%; */
-}
+.grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: start;
 }
