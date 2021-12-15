@@ -157,10 +157,11 @@ p {
 /* her defineres grid*/
 
 /*burger menu*/
-
-.hidden {
   /*    display: none;*/
   /*    transform: scale(0);*/
+
+/*  .hidden {
+
   transform: translateX(-100%);
   opacity: 0;
 }
@@ -172,7 +173,7 @@ p {
   position: sticky;
   z-index: 50;
 }
-/*emma her tror jeg*/
+
 #menu {
   list-style-type: none;
   transition: transform 0.3s;
@@ -192,4 +193,4 @@ p {
   #menu li {
     display: inline-block;
   }
-}
+}*/
