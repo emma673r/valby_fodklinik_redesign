@@ -79,12 +79,12 @@ footer button {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: hsl(191, 55%, 19%);
 }
 
 header a:hover {
-  color: white;
+  color: rgb(170, 223, 233);;
 }
 
 * {
