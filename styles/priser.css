@@ -1,9 +1,6 @@
 /* isabellas side */
 html {
-    --primary--color: 225, 40%, 46%;
-    --secondary--color: 224, 28%, 50%;
-    --third--color: 224, 28%, 50%;
-    --third--color: 224, 38%, 57%;
+    --primary--color:  rgb(170, 223, 233);
 }
 main {
   margin: 5px;
