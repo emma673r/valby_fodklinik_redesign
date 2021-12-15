@@ -17,7 +17,6 @@ a:hover {
   color: hsl(192, 68%, 64%);
 }
 
-
 #first_section ul {
   display: flex;
   gap: 0.5rem;
@@ -59,7 +58,8 @@ p {
 
 .wrapper_spec {
   display: grid;
-  grid-template-columns: 1fr 1fr;gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 
 .wrapper_spec img {
@@ -71,4 +71,14 @@ p {
   #first_section ul {
     justify-content: space-around;
   }
+
+  figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  figure .wrapper_spec {
+    grid-column: 1 /3;
+  }
+
 }
