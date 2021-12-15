@@ -80,13 +80,6 @@ footer button {
   border: none;
 }
 
-/* indsæt for VALIDERING 
-footer a {
-  background: none;
-  border: none;
-}
-*/
-
 a {
   text-decoration: none;
   color: hsl(191, 55%, 19%);
@@ -114,22 +107,6 @@ header button:hover {
   border-style: solid;
   border-color: black;
 }
-
-/* indsæt for VALIDERING
-header a {
-  background-color: rgb(170, 223, 233);
-  border-radius: 25%;
-  border-style: solid;
-  border-color: black;
-}
-
-header a:hover {
-  background-color: rgb(115, 151, 158);
-  border-radius: 25%;
-  border-style: solid;
-  border-color: black;
-}
-*/
 
 #burger_closed {
   background-image: url(../pics/burger_icon.png);
