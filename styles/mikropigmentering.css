@@ -1,8 +1,7 @@
 /* isabells side */
 
 * {
-  margin: 2px;
-  padding: 3.5px;
+  padding: 10px;
 }
 
 img {
@@ -40,6 +39,7 @@ img {
 
   #pic_1 {
     order: 2;
+    padding-top: 4rem;
   }
 
   #pic_4 {
@@ -57,6 +57,4 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
-
-  /* Menu */
 }

@@ -18,6 +18,7 @@ h1 {
   padding-top: 0.5rem;
   padding-right: 1rem;
   font-size: 3rem;
+  text-align: center;
 }
 
 .wrapper {
@@ -85,7 +86,7 @@ a {
 }
 
 header a:hover {
-  color: rgb(170, 223, 233);;
+  color: rgb(170, 223, 233);
 }
 
 * {
@@ -215,4 +216,10 @@ ul {
     display: flex;
     justify-content: center;
   }
+}
+
+a {
+  text-decoration: none;
+  font-family: "EB Garamond", serif;
+  font-size: 1.5rem;
 }
