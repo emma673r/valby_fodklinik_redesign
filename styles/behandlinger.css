@@ -17,6 +17,7 @@ a:hover {
   color: hsl(192, 68%, 64%);
 }
 
+
 #first_section ul {
   display: flex;
   gap: 0.5rem;
@@ -27,6 +28,7 @@ a:hover {
 main {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  padding-bottom: 2rem;
 }
 
 img {
@@ -51,9 +53,22 @@ em {
   font-size: larger;
 }
 
+p {
+  padding-top: 2rem;
+}
+
+.wrapper_spec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;gap: 10px;
+}
+
+.wrapper_spec img {
+  display: flex;
+  aspect-ratio: 1/1;
+}
+
 @media only screen and (min-width: 600px) {
   #first_section ul {
     justify-content: space-around;
   }
-  
 }
