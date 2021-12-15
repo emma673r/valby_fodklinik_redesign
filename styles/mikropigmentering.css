@@ -1,6 +1,6 @@
 /* isabells side */
 
-* {
+body {
   padding: 10px;
 }
 
@@ -24,7 +24,7 @@ img {
   gap: 10px;
 }
 
-#container_5 {
+#container_6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
@@ -53,6 +53,12 @@ img {
   }
 
   #container_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  #container_5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;

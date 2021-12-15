@@ -216,6 +216,11 @@ ul {
     display: flex;
     justify-content: center;
   }
+
+  #logo_navn {
+    max-width: 60%;
+    min-width: 50%;
+  }
 }
 
 a {
