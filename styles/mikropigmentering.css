@@ -59,14 +59,4 @@ img {
   }
 
   /* Menu */
-
-  a {
-    text-decoration: none;
-    font-family: "EB Garamond", serif;
-    font-size: 1rem;
-  }
-
-  a:hover {
-    color: white;
-  }
 }
