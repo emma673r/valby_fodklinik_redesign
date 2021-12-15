@@ -1,8 +1,7 @@
 /* isabells side */
 
-* {
-  margin: 2px;
-  padding: 3.5px;
+body {
+  padding: 10px;
 }
 
 img {
@@ -25,7 +24,7 @@ img {
   gap: 10px;
 }
 
-#container_5 {
+#container_6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
@@ -40,6 +39,7 @@ img {
 
   #pic_1 {
     order: 2;
+    padding-top: 4rem;
   }
 
   #pic_4 {
@@ -58,15 +58,9 @@ img {
     gap: 10px;
   }
 
-  /* Menu */
-
-  a {
-    text-decoration: none;
-    font-family: "EB Garamond", serif;
-    font-size: 1rem;
-  }
-
-  a:hover {
-    color: white;
+  #container_5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
 }
