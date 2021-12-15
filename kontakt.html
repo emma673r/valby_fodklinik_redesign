@@ -17,31 +17,36 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway:wght@300&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header>
-      <div class="wrapper">
-        <button id="logo" name="forside">
-          <a 
-            href="index.html"
-            ><img src="svg/logo_navn.svg" alt="logo"
-          /></a>
-        </button>
-       
+  <header>
+    <div class="wrapper">
+      <!-- <button id="logo" name="forside">
+        <a href="index.html"><img src="svg/logo.svg" alt="logo" /></a>
+      </button>
+      <h1>VALBY FODKLINIK</h1> -->
+      <a id="logo" href="index.html"
+        ><img src="svg/logo_navn.svg" alt="logo"
+      /></a>
+    </div>
+    <nav>
+      <ul class="burger_menu">
+        <li><a href="index.html">Forside</a></li>
+        <li><a href="behandlinger.html">Behandlinger</a></li>
+        <li><a href="mikropigmentering.html">Mikropigmentering</a></li>
+        <li><a href="priser.html">Priser</a></li>
+        <li>
+          <a
+            href="https://www.eadministration.dk/kunde/kundelogin.asp?klient=2619"
+            >Online Booking</a
+          >
+        </li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+      <div id="hamburger">
+        <div id="burger_closed"></div>
+        <div id="burger_opened"></div>
       </div>
-      <nav>
-        <ul class="burger_menu">
-          <li><a href="index.html">Forside</a></li>
-          <li><a href="behandlinger.html">Behandlinger</a></li>
-          <li><a href="mikropigmentering.html">Mikropigmentering</a></li>
-          <li><a href="priser.html">Priser</a></li>
-          <li><a href="https://www.eadministration.dk/kunde/kundelogin.asp?klient=2619">Online Booking</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-        <button id="hamburger" name="menu">
-          <div id="burger_closed"></div>
-          <div id="burger_opened"></div>
-        </button>
-      </nav>
-    </header>
+    </nav>
+  </header>
 
 <main>
     
@@ -93,21 +98,19 @@
 </main>
 
 <footer>
-      <div>© Valby Fodklinik</div>
-      <div>
-        <button name="instagram">
-          <a
-            href="https://www.instagram.com/valbyfodklinik/?utm_medium=copy_link"
-            ><img src="svg/instagram.svg" alt="instagram"
-          /></a>
-        </button>
-        <button name="facebook">
-          <a href="https://www.facebook.com/Valbyfodklinik/"
-            ><img src="svg/facebook.svg" alt="facebook"
-          /></a>
-        </button>
-      </div>
-    </footer>
+  <div>
+    © Valby Fodklinik <br /><a href="#first_section">Send me to the top</a>
+  </div>
+  <div class="wrapper">
+    <a href="https://www.instagram.com/valbyfodklinik/?utm_medium=copy_link"
+      ><div><img src="svg/instagram.svg" alt="instagram" /></div
+    ></a>
+
+    <a href="https://www.facebook.com/Valbyfodklinik/"
+      ><div><img src="svg/facebook.svg" alt="facebook" /></div
+    ></a>
+  </div>
+</footer>
     <script src="login.js"></script>
     <script src="script_burger.js"></script>
     <script src="map.js"></script>
