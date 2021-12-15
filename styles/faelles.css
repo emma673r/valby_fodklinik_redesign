@@ -17,8 +17,9 @@ h1 {
   font-family: "EB Garamond", serif;
   padding-top: 0.5rem;
   padding-right: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
+  display: none;
 }
 
 .wrapper {
@@ -220,6 +221,10 @@ ul {
   #logo_navn {
     max-width: 60%;
     min-width: 50%;
+  }
+
+  h1 {
+    display: block;
   }
 }
 
