@@ -1,6 +1,11 @@
 #videoBG {
   filter: blur(6px) brightness(0.4);
 }
+.vid_bill {
+  text-align: center;
+  width: 40%;
+  height: 300%;
+}
 
 .boxed1 {
   /* width: 324px;
@@ -21,7 +26,6 @@ h1 {
   text-align: center;
   margin-bottom: 10px;
   font-size: 35px;
-  color: rgb(170, 223, 233);
 }
 
 h2 {
