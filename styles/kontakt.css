@@ -35,6 +35,7 @@ p {
 .tekster {
   grid-column: 1/1;
   background-color: hsla(193.1,69.6%,60%,0.3);
+  padding: .4rem;
 }
 
 @media (min-width: 600px) {

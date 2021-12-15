@@ -7,6 +7,7 @@ body {
   font-size: 1rem;
   font-family: "Raleway", sans-serif;
 }
+
 p {
   line-height: 140%;
   padding-top: 1rem;
@@ -17,6 +18,7 @@ h1 {
   padding-top: 0.5rem;
   padding-right: 1rem;
   font-size: 3rem;
+  text-align: center;
 }
 
 .wrapper {
@@ -79,12 +81,12 @@ footer button {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: hsl(191, 55%, 19%);
 }
 
 header a:hover {
-  color: white;
+  color: rgb(170, 223, 233);
 }
 
 * {
@@ -214,5 +216,10 @@ ul {
     display: flex;
     justify-content: center;
   }
+}
 
+a {
+  text-decoration: none;
+  font-family: "EB Garamond", serif;
+  font-size: 1.5rem;
 }

@@ -58,7 +58,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr auto;
-  background-color: rgb(173, 211, 233);
+  background-color: rgb(170, 223, 233);
   margin: 1px;
   padding: 5px;
 }
