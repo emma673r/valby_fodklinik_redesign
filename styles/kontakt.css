@@ -5,7 +5,8 @@ body {
 }
 
 p {
-    margin-top: .4rem;
+    margin-top: .5rem;
+    margin-bottom: .2rem;
   }
 
   .infotitel{
@@ -13,9 +14,10 @@ p {
     
   }
 
-  h2 {
+  h1 {
     display: flex;
     justify-content: center;
+    margin: .4rem;
   }
 
   .contaktblock{
@@ -33,6 +35,7 @@ p {
 .tekster {
   grid-column: 1/1;
   background-color: hsla(193.1,69.6%,60%,0.3);
+  padding: .4rem;
 }
 
 @media (min-width: 600px) {

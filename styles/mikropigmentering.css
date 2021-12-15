@@ -1,15 +1,16 @@
 /* isabells side */
 
-* {
-  margin: 2px;
-  padding: 3.5px;
+main {
+  padding: 3rem;
 }
 
 img {
   max-width: 100%;
+  padding-top: 2rem;
 }
 
-#pic_3 {
+h1 {
+  font-size: 2.5rem;
 }
 
 .priser {
@@ -22,16 +23,13 @@ img {
   padding: 5px;
 }
 
-/* @media (max-width: 600px;) {
-} */
-
 #container_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
 
-#container_5 {
+#container_6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
@@ -46,6 +44,7 @@ img {
 
   #pic_1 {
     order: 2;
+    padding-top: 4rem;
   }
 
   #pic_4 {
@@ -59,6 +58,12 @@ img {
   }
 
   #container_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  #container_5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="da">
   <head>
+    <meta
+      name="description"
+      content="Fodterapi og fodbehandling i Valby og København."
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,14 +33,13 @@
   <body>
     <header>
       <div class="wrapper">
-        <button id="logo">
-          <a 
-            href="index.html"
+        <button id="logo" name="forside">
+          <a href="index.html"
             ><img id="logo_navn" src="svg/logo_navn.svg" alt="logo"
-          />
+          /></a>
         </button>
       </div>
-      <!-- <nav>
+      <nav>
         <ul class="burger_menu">
           <li><a href="index.html">Forside</a></li>
           <li><a href="behandlinger.html">Behandlinger</a></li>
@@ -50,12 +53,12 @@
           </li>
           <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
-        <button id="hamburger">
+        <button id="hamburger" name="menu">
           <div id="burger_closed"></div>
           <div id="burger_opened"></div>
         </button>
-      </nav> -->
-    <nav>
+      </nav>
+      <!-- <nav>
         <div id="menuknap">☰</div>
         <ul id="menu" class="hidden">
           <li><a href="index.html">Forside</a></li>
@@ -65,393 +68,392 @@
           <li><a href="https://www.eadministration.dk/kunde/kundelogin.asp?klient=2619">Online Booking</a></li>
           <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
-    </nav>
+    </nav>-->
     </header>
+    <main>
+      <!--section her er for første del af prisliste-->
+      <!--priser fodbehandling-->
+      <div id="grid">
+        <section id="section1">
+          <h1>Prisliste</h1>
+          <h2>Fodbehandlinger</h2>
+          <div class="box1">
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Fodbehandling</p>
+              </div>
+              <div class="textbox2">
+                <p>435,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Fodbehandling +</p>
+              </div>
+              <div class="textbox2">
+                <p>585,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Fodbehandling med svær leddegigt uden henvisning</p>
+              </div>
+              <div class="textbox2">
+                <p>435,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Udvidet fodbehandling +</p>
+              </div>
+              <div class="textbox2">
+                <p>505,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Alm. fodbehandling for diabetiker uden tilskud</p>
+              </div>
+              <div class="textbox2">
+                <p>435,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Lille fodbehandling (enkel beskæring eller klip af negle)</p>
+              </div>
+              <div class="textbox2">
+                <p>295,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Beskæring af ligtorn</p>
+              </div>
+              <div class="textbox2">
+                <p>195,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>
+                  Shellak på fødderne (kan kun bruges sammen med fodbehandling)
+                </p>
+              </div>
+              <div class="textbox2">
+                <p>170,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>
+                  Vinyllux på fødderne (kan kun bruges sammen med fodbehandling)
+                </p>
+              </div>
+              <div class="textbox2">
+                <p>150,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Pedicure inkl. lak/shellak</p>
+              </div>
+              <div class="textbox2">
+                <p>320,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Aftagning af shellak der ikke er lagt i klinikken</p>
+              </div>
+              <div class="textbox2">
+                <p>120,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Bøjlebehandling u Henvisning.</p>
+              </div>
+              <div class="textbox2">
+                <p>230,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Korrektion af 1 eksisterende bøjle u. henvisning</p>
+              </div>
+              <div class="textbox2">
+                <p>155,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Korrektion af 2 eksisterende bøjle u. henvisning</p>
+              </div>
+              <div class="textbox2">
+                <p>195,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Frysning af vorte uden anden behandling</p>
+              </div>
+              <div class="textbox2">
+                <p>140,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Frysning af vorte under fodbehandling</p>
+              </div>
+              <div class="textbox2">
+                <p>90,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Fodbehandling i eget hjem</p>
+              </div>
+              <div class="textbox2">
+                <p>535,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Fodmassage</p>
+              </div>
+              <div class="textbox2">
+                <p>270,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Paraffinbad uden anden behandling</p>
+              </div>
+              <div class="textbox2">
+                <p>270,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Paraffinbad af hænderne ifm. anden behandling</p>
+              </div>
+              <div class="textbox2">
+                <p>270,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Neglesvamps middel på pen</p>
+              </div>
+              <div class="textbox2">
+                <p>119,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Middel mod neglesvamp på spray</p>
+              </div>
+              <div class="textbox2">
+                <p>119,-</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    <!--section her er for første del af prisliste-->
-    <!--priser fodbehandling-->
-<div id="grid">
-    <section id="section1">
-      <h1>Prisliste</h1>
-      <h2>Fodbehandlinger</h2>
-      <div class="box1">
-      <section class="section_wrapper">
-        <div class="fodbehandlinger">
+        <!--her defineres indlæg-->
+        <section id="section2">
+          <h2>Indlæg</h2>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Fodbehandling</p>
-        </div>
-        <div class="textbox2">
-          <p>435,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>1 sæt specielt tilpasset indlæg inkl. opfølgning.</p>
+            </div>
+            <div class="textbox2">
+              <p>915,-</p>
+            </div>
+          </div>
+        </section>
+        <!--her defineres sugar wax-->
+        <section id="section3">
+          <h2>Sugar wax</h2>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Fodbehandling +</p>
-        </div>
-        <div class="textbox2">
-          <p>585,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>Hage & overlæbe</p>
+            </div>
+            <div class="textbox2">
+              <p>320,-</p>
+            </div>
+          </div>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Fodbehandling med svær leddegigt uden henvisning</p>
-        </div>
-        <div class="textbox2">
-          <p>435,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>Underben inkl. knæ og tæer</p>
+            </div>
+            <div class="textbox2">
+              <p>470,-</p>
+            </div>
+          </div>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Udvidet fodbehandling +</p>
-        </div>
-          <div class="textbox2">
-          <p>505,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>Lår (kvinder)</p>
+            </div>
+            <div class="textbox2">
+              <p>420,-</p>
+            </div>
+          </div>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Alm. fodbehandling for diabetiker uden tilskud</p>
-        </div>
-        <div class="textbox2">
-          <p>435,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>Hele ben</p>
+            </div>
+            <div class="textbox2">
+              <p>720,-</p>
+            </div>
+          </div>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Lille fodbehandling (enkel beskæring eller klip af negle)</p>
-        </div>
-        <div class="textbox2">
-          <p>295,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>Bikinilinje</p>
+            </div>
+            <div class="textbox2">
+              <p>270,-</p>
+            </div>
+          </div>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Beskæring af ligtorn</p>
-        </div>
-        <div class="textbox2">
-          <p>195,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>Baller tilkøb (kvinder)</p>
+            </div>
+            <div class="textbox2">
+              <p>220,-</p>
+            </div>
+          </div>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Shellak på fødderne (kan kun bruges sammen med fodbehandling)</p>
-        </div>
-        <div class="textbox2">
-          <p>170,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>Baller tilkøb (mænd)</p>
+            </div>
+            <div class="textbox2">
+              <p>270,-</p>
+            </div>
+          </div>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Vinyllux på fødderne (kan kun bruges sammen med fodbehandling)</p>
-        </div>
-        <div class="textbox2">
-          <p>150,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>Hele arme</p>
+            </div>
+            <div class="textbox2">
+              <p>420,-</p>
+            </div>
+          </div>
+
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Pedicure inkl. lak/shellak</p>
-        </div>
-        <div class="textbox2">
-          <p>320,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>Underarme</p>
+            </div>
+            <div class="textbox2">
+              <p>270,-</p>
+            </div>
+          </div>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Aftagning af shellak der ikke er lagt i klinikken</p>
-        </div>
-        <div class="textbox2">
-          <p>120,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>Armhuler</p>
+            </div>
+            <div class="textbox2">
+              <p>220,-</p>
+            </div>
+          </div>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Bøjlebehandling u Henvisning.</p>
-        </div>
-        <div class="textbox2">
-          <p>230,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>Lænd (mænd)</p>
+            </div>
+            <div class="textbox2">
+              <p>320,-</p>
+            </div>
+          </div>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Korrektion af 1 eksisterende bøjle u. henvisning</p>
-        </div>
-        <div class="textbox2">
-          <p>155,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
+              <p>Ryg (mænd)</p>
+            </div>
+            <div class="textbox2">
+              <p>570,-</p>
+            </div>
+          </div>
+          <div class="fodbehandlinger">
             <div class="textbox1">
-          <p>Korrektion af 2 eksisterende bøjle u. henvisning</p>
-        </div>
-        <div class="textbox2">
-          <p>195,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Frysning af vorte uden anden behandling</p>
-        </div>
-        <div class="textbox2">
-          <p>140,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Frysning af vorte under fodbehandling</p>
-        </div>
-        <div class="textbox2">
-          <p>90,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Fodbehandling i eget hjem</p>
-        </div>
-        <div class="textbox2">
-          <p>535,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Fodmassage</p>
-        </div>
-        <div class="textbox2">
-          <p>270,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Paraffinbad uden anden behandling</p>
-        </div>
-        <div class="textbox2">
-          <p>270,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Paraffinbad af hænderne ifm. anden behandling</p>
-        </div>
-        <div class="textbox2">
-          <p>270,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Neglesvamps middel på pen</p>
-        </div>
-        <div class="textbox2">
-          <p>119,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Middel mod neglesvamp på spray</p>
-        </div>
-        <div class="textbox2">
-          <p>119,-</p>
-        </div>
-        </div>
-    </div>
-      </section>
-    </section>
-    <!--her defineres indlæg-->
-    <section id="section2">
-      <h2>Indlæg</h2>
-      <section class="section_wrapper">
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>1 sæt specielt tilpasset indlæg inkl. opfølgning.</p>
-        </div>
-        <div class="textbox2">
-          <p>915,-</p>
-        </div>
-        </div>
-    
-      </section>
-    </section>
-    <!--her defineres sugar wax-->
-    <section id="section3">
-      <h2>Sugar wax</h2>
-      <section class="section_wrapper">
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Hage & overlæbe</p>
-        </div>
-        <div class="textbox2">
-          <p>320,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Underben inkl. knæ og tæer</p>
-        </div>
-        <div class="textbox2">
-          <p>470,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Lår (kvinder)</p>
-        </div>
-        <div class="textbox2">
-          <p>420,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Hele ben</p>
-        </div>
-        <div class="textbox2">
-          <p>720,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Bikinilinje</p>
-        </div>
-        <div class="textbox2">
-          <p>270,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Baller tilkøb (kvinder)</p>
-        </div>
-        <div class="textbox2">
-          <p>220,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Baller tilkøb (mænd)</p>
-        </div>
-        <div class="textbox2">
-          <p>270,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Hele arme</p>
-        </div>
-        <div class="textbox2">
-          <p>420,-</p>
-        </div>
-        </div>
+              <p>Mave + Bryst (mænd)</p>
+            </div>
+            <div class="textbox2">
+              <p>570,-</p>
+            </div>
+          </div>
+        </section>
+        <!--her defineres laserterapi-->
+        <section id="section4">
+          <h2>Laser terapi</h2>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Klippekort 5 klip til laserbehandling</p>
+              </div>
+              <div class="textbox2">
+                <p>750,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Klippekort 7 klip til laserbehandling</p>
+              </div>
+              <div class="textbox2">
+                <p>999,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>Klippekort 10 klip til laserbehandling</p>
+              </div>
+              <div class="textbox2">
+                <p>1299,-</p>
+              </div>
+            </div>
+            <div class="fodbehandlinger">
+              <div class="textbox1">
+                <p>1 behandling med laser</p>
+              </div>
+              <div class="textbox2">
+                <p>915,-</p>
+              </div>
+            </div>
+            <h3>Diverse produkter kan købes</h3>
+          </section>
+          
         
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Underarme</p>
-        </div>
-        <div class="textbox2">
-          <p>270,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Armhuler</p>
-        </div>
-        <div class="textbox2">
-          <p>220,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Lænd (mænd)</p>
-        </div>
-        <div class="textbox2">
-          <p>320,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Ryg (mænd)</p>
-        </div>
-        <div class="textbox2">
-          <p>570,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Mave + Bryst (mænd)</p>
-        </div>
-        <div class="textbox2">
-          <p>570,-</p>
-        </div>
-        </div>
-      </section>
-    </section>
-    <!--her defineres laserterapi-->
-    <section id="section4">
-      <h2>Laser terapi</h2>
-      <section class="section_wrapper">
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Klippekort 5 klip til laserbehandling</p>
-        </div>
-        <div class="textbox2">
-          <p>750,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Klippekort 7 klip til laserbehandling</p>
-        </div>
-        <div class="textbox2">
-          <p>999,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>Klippekort 10 klip til laserbehandling</p>
-        </div>
-        <div class="textbox2">
-          <p>1299,-</p>
-        </div>
-        </div>
-        <div class="fodbehandlinger">
-            <div class="textbox1">
-          <p>1 behandling med laser</p>
-        </div>
-        <div class="textbox2">
-          <p>915,-</p>
-        </div>
-        </div>
-      </section>
-      <h3>Diverse produkter kan købes</h3>
-    </section>
 
-    <!--her defineres gavekort-->
-    <section id="last_section">    
-        <div id="logo1">
-      <img src="svg/logo.svg" alt="logo" />
-    </div>
-      <h2>Det er muligt at købe GAVEKORT til alle behandlinger</h2>
-      <div class="gavekort">
-        <img src="svg/gavekort.svg" alt="gavekort" />
+        <!--her defineres gavekort-->
+        <section id="last_section">
+          <div id="logo1">
+            <img src="svg/logo.svg" alt="logo" />
+          </div>
+          <h2>Det er muligt at købe GAVEKORT til alle behandlinger</h2>
+          <div class="gavekort">
+            <img src="svg/gavekort.svg" alt="gavekort" />
+          </div>
+        </section>
       </div>
-    </section>
-</div>
+    </main>
+
     <footer>
       <div>© Valby Fodklinik</div>
       <div>
-        <button>
+        <button name="instagram">
           <a
             href="https://www.instagram.com/valbyfodklinik/?utm_medium=copy_link"
             ><img src="svg/instagram.svg" alt="instagram"
           /></a>
         </button>
-        <button>
+        <button name="facebook">
           <a href="https://www.facebook.com/Valbyfodklinik/"
             ><img src="svg/facebook.svg" alt="facebook"
           /></a>
         </button>
       </div>
-
     </footer>
     <script src="login.js"></script>
-    <!-- <script src="script_burger.js"></script> -->
-    <script src="test.js"></script> 
+    <script src="script_burger.js"></script>
+    <!-- <script src="test.js"></script>  -->
   </body>
 </html>
 

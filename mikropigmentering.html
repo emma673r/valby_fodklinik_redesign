@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="da">
   <head>
+    <meta
+      name="description"
+      content="Fodterapi og fodbehandling i Valby og København."
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +13,11 @@
     <!-- CSS styling -->
     <link rel="stylesheet" href="styles/faelles.css" />
     <link rel="stylesheet" href="styles/mikropigmentering.css" />
-    <!-- fonte -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="svg/logo.svg" />
+    <link rel="alternate icon" href="svg/logo.svg" />
+    <link rel="mask-icon" href="svg/logo.svg" color="#ff8a01" />
+    <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,258 +26,274 @@
     />
   </head>
   <body>
-   <header>
+    <header>
       <div class="wrapper">
-        <button id="logo">
-          <a 
-            href="index.html"
+        <button id="logo" name="forside">
+          <a href="index.html"
             ><img id="logo_navn" src="svg/logo_navn.svg" alt="logo"
-          />
+          /></a>
         </button>
       </div>
-
       <nav>
-        <div id="menuknap">☰</div>
-        <ul id="menu" class="hidden">
+        <ul class="burger_menu">
           <li><a href="index.html">Forside</a></li>
           <li><a href="behandlinger.html">Behandlinger</a></li>
           <li><a href="mikropigmentering.html">Mikropigmentering</a></li>
           <li><a href="priser.html">Priser</a></li>
-          <li><a href="https://www.eadministration.dk/kunde/kundelogin.asp?klient=2619">Online Booking</a></li>
+          <li>
+            <a
+              href="https://www.eadministration.dk/kunde/kundelogin.asp?klient=2619"
+              >Online Booking</a
+            >
+          </li>
           <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
-    </nav>
+        <button id="hamburger" name="menu">
+          <div id="burger_closed"></div>
+          <div id="burger_opened"></div>
+        </button>
+      </nav>
     </header>
+    <main>
+      <h1>Mikropigmentering</h1>
 
-    <h1>Mikropigmentering</h1>
+      <section id="container_1">
+        <div id="pic_1"><img src="pics/bryn1.jpg" alt="microblading_1" /></div>
+        <div id="box_1">
+          <h2>Microblading</h2>
+          <p>
+            Microblading er til dig der ønsker så naturlige øjenbryn som muligt,
+            da du med denne behandling får lavet de fineste og tyndeste hårstrå
+            som definerer og udfylder dine allerede eksisterende bryn.
+            Behandlingen foregår ved hjælp af specialproducerede nåle som
+            deponeres i hudens øverste lag, og derfor kaldes den semipermanent
+            da kroppen kan udstøde farven efter noget tid. Normalt holder denne
+            semipermanente tatovering i minimum 1 år, og man skal derfor
+            forvente at opfriske/vedligeholde brynene efter 1-2 år. Når brynene
+            falmer kan de enten blive en smule rødlige eller grålige i farven,
+            altafhængig af hvilket pigment der er blevet brugt, samt din egen
+            underliggende tone.
+          </p>
 
-    <section id="container_1">
-      <div id="pic_1"><img src="pics/bryn1.jpg" alt="microblading_1" /></div>
-      <div id="box_1">
-        <h2>Microblading</h2>
-        <p>
-          Microblading er til dig der ønsker så naturlige øjenbryn som muligt,
-          da du med denne behandling får lavet de fineste og tyndeste hårstrå
-          som definerer og udfylder dine allerede eksisterende bryn.
-          Behandlingen foregår ved hjælp af specialproducerede nåle som
-          deponeres i hudens øverste lag, og derfor kaldes den semipermanent da
-          kroppen kan udstøde farven efter noget tid. Normalt holder denne
-          semipermanente tatovering i minimum 1 år, og man skal derfor forvente
-          at opfriske/vedligeholde brynene efter 1-2 år. Når brynene falmer kan
-          de enten blive en smule rødlige eller grålige i farven, altafhængig af
-          hvilket pigment der er blevet brugt, samt din egen underliggende tone.
-        </p>
+          <h2>Permanent makeup med maskine</h2>
+          <p>
+            Man kan også få lavet et fuldt optegnet bryn med maskine, som ikke
+            er helt så naturligt som med microblading men mere makeup-agtigt.
+            Der laves desuden læbekant og eyeliner samt vippefortætning med
+            maskine.
+          </p>
 
-        <h2>Permanent makeup med maskine</h2>
-        <p>
-          Man kan også få lavet et fuldt optegnet bryn med maskine, som ikke er
-          helt så naturligt som med microblading men mere makeup-agtigt. Der
-          laves desuden læbekant og eyeliner samt vippefortætning med maskine.
-        </p>
+          <h2>Lash lift</h2>
+          <p>
+            Der kan ligeledes bestilles tid til vippebuk/lash lift med eller
+            uden farve, som hører under mikropigmentering. Løftet/bukket samt
+            farvningen holder mellem 6-8 uger.
+          </p>
+        </div>
+      </section>
+      <section id="container_2">
+        <div id="pic_2"><img src="pics/bryn2.jpg" alt="microblading_2" /></div>
+        <div id="pic_8">
+          <img src="pics/lips1.jpg" alt="permanent makeup_1" />
+        </div>
+      </section>
 
-        <h2>Lash lift</h2>
-        <p>
-          Der kan ligeledes bestilles tid til vippebuk/lash lift med eller uden
-          farve, som hører under mikropigmentering. Løftet/bukket samt
-          farvningen holder mellem 6-8 uger.
-        </p>
-      </div>
-    </section>
-    <section id="container_2">
-      <div id="pic_2"><img src="pics/bryn2.jpg" alt="microblading_2" /></div>
-      <div id="pic_8">
-        <img src="pics/lips1.jpg" alt="permanent makeup_1" />
-      </div>
-    </section>
+      <section id="container_3">
+        <div id="pic_3"><img src="pics/bryn3.jpg" alt="microblading_3" /></div>
+        <div id="box_2">
+          <h2>Ofte stillede spørgsmål til mikropigmentering:</h2>
 
-    <section id="container_3">
-      <div id="pic_3"><img src="pics/bryn3.jpg" alt="microblading_3" /></div>
-      <div id="box_2">
-        <h2>Ofte stillede spørgsmål til mikropigmentering:</h2>
+          <h3>Hvordan laves hårstråene?</h3>
+          <p>
+            Ved den klassiske permanente make-up benyttes en maskine med nåle i
+            en klynge, og ved microblading benyttes et håndholdt værktøj hvor
+            nålene sidder på række. Antallet af nåle og deres placering varierer
+            efter hvilket udseende man ønsker på sine strøg. Ved både
+            microblading og permanent make-up med maskine arbejder man i den
+            samme dybde i huden. Hårstrå ved microblading laves ved at man
+            dypper værktøjet med nåle ned i pigment og manuelt kører det ned i
+            huden i strøg.
+          </p>
 
-        <h3>Hvordan laves hårstråene?</h3>
-        <p>
-          Ved den klassiske permanente make-up benyttes en maskine med nåle i en
-          klynge, og ved microblading benyttes et håndholdt værktøj hvor nålene
-          sidder på række. Antallet af nåle og deres placering varierer efter
-          hvilket udseende man ønsker på sine strøg. Ved både microblading og
-          permanent make-up med maskine arbejder man i den samme dybde i huden.
-          Hårstrå ved microblading laves ved at man dypper værktøjet med nåle
-          ned i pigment og manuelt kører det ned i huden i strøg.
-        </p>
+          <h3>Bliver brynene identiske?</h3>
+          <p>
+            Der laves en optegning af begge bryn før behandlingen går i gang.
+            Først optegnes det ene bryn (hvorefter du godkender det) og så
+            kopieres optegningen over på det andet bryn i hånden via specielle
+            teknikker. Selve formen på brynene vil derfor være identiske, men da
+            hårstråene er håndlavede vil du kunne se meget lidt forskel på dine
+            bryn. Derudover er dine naturlige bryn ikke ens – det ene bryn kan
+            have mere fylde i et område end et andet, hvilket vil medføre at du
+            her kan se flere microblading strøg, hvor strøgene vil være mere
+            skjult i det mere fyldige bryn. Hvis der mangler fyld på et bryn
+            efter opheling, vil dette rettes til ved en opfølgende behandling
+            efter 4-6 uger.
+          </p>
 
-        <h3>Bliver brynene identiske?</h3>
-        <p>
-          Der laves en optegning af begge bryn før behandlingen går i gang.
-          Først optegnes det ene bryn (hvorefter du godkender det) og så
-          kopieres optegningen over på det andet bryn i hånden via specielle
-          teknikker. Selve formen på brynene vil derfor være identiske, men da
-          hårstråene er håndlavede vil du kunne se meget lidt forskel på dine
-          bryn. Derudover er dine naturlige bryn ikke ens – det ene bryn kan
-          have mere fylde i et område end et andet, hvilket vil medføre at du
-          her kan se flere microblading strøg, hvor strøgene vil være mere
-          skjult i det mere fyldige bryn. Hvis der mangler fyld på et bryn efter
-          opheling, vil dette rettes til ved en opfølgende behandling efter 4-6
-          uger.
-        </p>
+          <h3>Er én behandling nok?</h3>
+          <p>
+            Som udgangspunkt er én behandling ikke nok. Ved den første
+            behandling kan der være lidt mellemrum mellem stregerne, hvilket man
+            vil fylde ud ved den opfølgende behandling. Dette skyldes at brynet
+            i løbet af behandlingen vil begynde at hæve op og det bliver svært
+            at se den egentlige facon og mellemrum mellem strøgene. Forvent
+            derfor at brynet vil se mere fyldigt ud efter 1-2 opfølgende
+            behandlinger, end efter den første.
+          </p>
+          <h3>Kan jeg tage til fest samme aften/i dagene efter?</h3>
+          <p>
+            Ja, det kan du godt – vær dog opmærksom på at brynene er under
+            heling. Du vil under helingsperioden få små sårskorper på dine bryn,
+            der over 5-14 dage langsomt vil ryge af. Dette kan for nogle virke
+            lidt voldsomt. Tag derfor dette med i dine overvejelser, når du
+            bestiller en tid.
+          </p>
 
-        <h3>Er én behandling nok?</h3>
-        <p>
-          Som udgangspunkt er én behandling ikke nok. Ved den første behandling
-          kan der være lidt mellemrum mellem stregerne, hvilket man vil fylde ud
-          ved den opfølgende behandling. Dette skyldes at brynet i løbet af
-          behandlingen vil begynde at hæve op og det bliver svært at se den
-          egentlige facon og mellemrum mellem strøgene. Forvent derfor at brynet
-          vil se mere fyldigt ud efter 1-2 opfølgende behandlinger, end efter
-          den første.
-        </p>
-        <h3>Kan jeg tage til fest samme aften/i dagene efter?</h3>
-        <p>
-          Ja, det kan du godt – vær dog opmærksom på at brynene er under heling.
-          Du vil under helingsperioden få små sårskorper på dine bryn, der over
-          5-14 dage langsomt vil ryge af. Dette kan for nogle virke lidt
-          voldsomt. Tag derfor dette med i dine overvejelser, når du bestiller
-          en tid.
-        </p>
+          <h3>Ses resultatet direkte efter én behandling?</h3>
+          <p>
+            Nej, lige efter første behandling vil brynene være meget mørke og
+            hævede. Indenfor 6-24 timer vil der opstå sårskorper, der tager op
+            til 14 dage om at falde helt af. Det tager hævelsen 4-6 uger om at
+            forsvinde helt. I denne periode skal man være tålmodig og se brynene
+            an. Det er først ved en opfølgende behandling 4-6 uger efter 1.
+            behandling, at der kan ses et endeligt resultat og laves eventuelle
+            rettelser.
+          </p>
 
-        <h3>Ses resultatet direkte efter én behandling?</h3>
-        <p>
-          Nej, lige efter første behandling vil brynene være meget mørke og
-          hævede. Indenfor 6-24 timer vil der opstå sårskorper, der tager op til
-          14 dage om at falde helt af. Det tager hævelsen 4-6 uger om at
-          forsvinde helt. I denne periode skal man være tålmodig og se brynene
-          an. Det er først ved en opfølgende behandling 4-6 uger efter 1.
-          behandling, at der kan ses et endeligt resultat og laves eventuelle
-          rettelser.
-        </p>
+          <h3>Kan alle få lavet permanent makeup?</h3>
+          <p>
+            Som udgangspunkt kan alle få lavet permanent makeup, dog skal du
+            være over 18 år og må ikke være gravid eller ammende. Har du evt. en
+            permanent makeup i forvejen, kræver det at jeg ser disse førend jeg
+            ved om jeg kan lave et flot resultat.
+          </p>
+        </div>
+      </section>
 
-        <h3>Kan alle få lavet permanent makeup?</h3>
-        <p>
-          Som udgangspunkt kan alle få lavet permanent makeup, dog skal du være
-          over 18 år og må ikke være gravid eller ammende. Har du evt. en
-          permanent makeup i forvejen, kræver det at jeg ser disse førend jeg
-          ved om jeg kan lave et flot resultat.
-        </p>
-      </div>
-    </section>
+      <section id="container_4">
+        <div id="pic_4"><img src="pics/bryn4.jpg" alt="microblading_4" /></div>
+        <div id="box_3">
+          <h2>Efter behandlingen</h2>
+          <p>
+            Efter behandlingen skal du være indstillet på at der vil være sår på
+            dine nye bryn, eyeliner eller læber. Det tager 5-14 dage før sårene
+            falder af, og i denne periode skal du igen tage visse
+            forholdsregler. Disse vil du igen blive gjort opmærksom på inden
+            behandlingen. Du skal være indstillet på at det kan kræve flere end
+            én behandling før du har et færdigt resultat, og at du i en periode
+            efter behandlingen vil have sårskorper der gradvist falder af i
+            flager. Derudover må den behandlede hud ikke udsættes for direkte
+            sol/solarie, mens helingen står på. Du vil se det endelige resultat
+            4-6 uger efter behandlingen – det er også her der udføres en
+            genopfriskende behandling og IKKE før. Grunden til at vi venter 4-6
+            uger er, at sårene skal være fuldstændig helede og hævelsen være
+            faldet helt ned. Permanent make-up kræver tålmodighed, men
+            resultatet er det hele værd. Desuden skal du være omhyggelig med at
+            smøre med vaseline i minimum 1 uge efter behandlingen.
+          </p>
+        </div>
+      </section>
 
-    <section id="container_3">
-      <div id="pic_4"><img src="pics/bryn4.jpg" alt="microblading_4" /></div>
-      <div id="box_3">
-        <h2>Efter behandlingen</h2>
-        <p>
-          Efter behandlingen skal du være indstillet på at der vil være sår på
-          dine nye bryn, eyeliner eller læber. Det tager 5-14 dage før sårene
-          falder af, og i denne periode skal du igen tage visse forholdsregler.
-          Disse vil du igen blive gjort opmærksom på inden behandlingen. Du skal
-          være indstillet på at det kan kræve flere end én behandling før du har
-          et færdigt resultat, og at du i en periode efter behandlingen vil have
-          sårskorper der gradvist falder af i flager. Derudover må den
-          behandlede hud ikke udsættes for direkte sol/solarie, mens helingen
-          står på. Du vil se det endelige resultat 4-6 uger efter behandlingen –
-          det er også her der udføres en genopfriskende behandling og IKKE før.
-          Grunden til at vi venter 4-6 uger er, at sårene skal være fuldstændig
-          helede og hævelsen være faldet helt ned. Permanent make-up kræver
-          tålmodighed, men resultatet er det hele værd. Desuden skal du være
-          omhyggelig med at smøre med vaseline i minimum 1 uge efter
-          behandlingen.
-        </p>
-      </div>
-    </section>
-
-    <section id="container_4">
-      <div id="pic_6"><img src="pics/bryn6.jpg" alt="microblading_6" /></div>
-      <section id="priser">
-        <h2>Priser på permanent makeup</h2>
-        <section class="section_wrapper">
-          <div class="priser">
-            <p>Microblading inkl. efterbehandling</p>
-            <p>2500,-</p>
-          </div>
-          <div class="priser">
-            <p>Microblading opfriskning, efter max 6 uger</p>
-            <p>1250,-</p>
-          </div>
-          <div class="priser">
-            <p>Microblading genopfriskning, 3-12 mdr. efter (1 behandling)</p>
-            <p>1500,-</p>
-          </div>
-          <div class="priser">
-            <p>Microblading genopfriskning, efter 12 mdr. (forfra igen)</p>
-            <p>2500,-</p>
-          </div>
-          <div class="priser">
-            <p>
-              Permanent makeup - Læber, inkl. efterbehandling indenfor 6 uger
-            </p>
-            <p>3000,-</p>
-          </div>
-          <div class="priser">
-            <p>Læber genopfriskning, 1 behandling</p>
-            <p>2000,-</p>
-          </div>
-          <div class="priser">
-            <p>
-              Permanent makeup - Eyeliner, inkl. efterbehandling indenfor 6 uger
-            </p>
-            <p>2000,-</p>
-          </div>
-          <div class="priser">
-            <p>Eyeliner genopfriskning, 1 behandling</p>
-            <p>1700,-</p>
-          </div>
-          <div class="priser">
-            <p>Permanent Lash lift med farve</p>
-            <p>550,-</p>
-          </div>
-          <div class="priser">
-            <p>Permanent Lash lift uden farve</p>
-            <p>450,-</p>
-          </div>
-          <div class="priser">
-            <p>Retning af bryn</p>
-            <p>50,-</p>
-          </div>
-          <div class="priser">
-            <p>Retning af bryn inkl. farve</p>
-            <p>170,-</p>
-          </div>
-          <div class="priser">
-            <p>Farvning af bryn og vipper</p>
-            <p>125,-</p>
-          </div>
+      <section id="container_5">
+        <div id="pic_6"><img src="pics/bryn6.jpg" alt="microblading_6" /></div>
+        <section id="priser">
+          <h2>Priser på permanent makeup</h2>
+          <section class="section_wrapper">
+            <div class="priser">
+              <p>Microblading inkl. efterbehandling</p>
+              <p>2500,-</p>
+            </div>
+            <div class="priser">
+              <p>Microblading opfriskning, efter max 6 uger</p>
+              <p>1250,-</p>
+            </div>
+            <div class="priser">
+              <p>Microblading genopfriskning, 3-12 mdr. efter (1 behandling)</p>
+              <p>1500,-</p>
+            </div>
+            <div class="priser">
+              <p>Microblading genopfriskning, efter 12 mdr. (forfra igen)</p>
+              <p>2500,-</p>
+            </div>
+            <div class="priser">
+              <p>
+                Permanent makeup - Læber, inkl. efterbehandling indenfor 6 uger
+              </p>
+              <p>3000,-</p>
+            </div>
+            <div class="priser">
+              <p>Læber genopfriskning, 1 behandling</p>
+              <p>2000,-</p>
+            </div>
+            <div class="priser">
+              <p>
+                Permanent makeup - Eyeliner, inkl. efterbehandling indenfor 6
+                uger
+              </p>
+              <p>2000,-</p>
+            </div>
+            <div class="priser">
+              <p>Eyeliner genopfriskning, 1 behandling</p>
+              <p>1700,-</p>
+            </div>
+            <div class="priser">
+              <p>Permanent Lash lift med farve</p>
+              <p>550,-</p>
+            </div>
+            <div class="priser">
+              <p>Permanent Lash lift uden farve</p>
+              <p>450,-</p>
+            </div>
+            <div class="priser">
+              <p>Retning af bryn</p>
+              <p>50,-</p>
+            </div>
+            <div class="priser">
+              <p>Retning af bryn inkl. farve</p>
+              <p>170,-</p>
+            </div>
+            <div class="priser">
+              <p>Farvning af bryn og vipper</p>
+              <p>125,-</p>
+            </div>
+          </section>
         </section>
       </section>
-    </section>
 
-    <section id="container_5">
-      <div id="pic_5"><img src="pics/bryn5.jpg" alt="microblading_5" /></div>
-      <div id="pic_9">
-        <img src="pics/lips2.jpg" alt="permanent makeup_2" />
-      </div>
-      <div id="pic_7"><img src="pics/bryn7.jpg" alt="microblading_7" /></div>
-    </section>
+      <section id="container_6">
+        <div id="pic_5"><img src="pics/bryn5.jpg" alt="microblading_5" /></div>
+        <div id="pic_9">
+          <img src="pics/lips2.jpg" alt="permanent makeup_2" />
+        </div>
+        <div id="pic_7"><img src="pics/bryn7.jpg" alt="microblading_7" /></div>
+      </section>
+    </main>
 
     <footer>
       <div>© Valby Fodklinik</div>
       <div>
-        <button>
+        <!-- <p>Valby langgade 201, 2500 Valby</p>
+        <address>
+          	<a href="mailto:valbyfodklinik@hotmail.com">valbyfodklinik@hotmail.com</a>
+            <a href="tel:+4526200976"> +45 26 20 09 76</a>
+        </address> -->
+
+        <button name="instagram">
           <a
             href="https://www.instagram.com/valbyfodklinik/?utm_medium=copy_link"
             ><img src="svg/instagram.svg" alt="instagram"
           /></a>
         </button>
-        <button>
+        <button name="facebook">
           <a href="https://www.facebook.com/Valbyfodklinik/"
             ><img src="svg/facebook.svg" alt="facebook"
           /></a>
         </button>
       </div>
-
     </footer>
 
     <script src="login.js"></script>
-    <script src="test.js"></script>
+    <script src="script_burger.js"></script>
   </body>
 </html>
 
