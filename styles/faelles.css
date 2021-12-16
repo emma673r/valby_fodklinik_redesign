@@ -84,6 +84,12 @@ footer div {
 a {
   text-decoration: none;
   color: hsl(191, 55%, 19%);
+  font-family: "EB Garamond", serif;
+  font-size: 1.5rem;
+}
+
+footer a {
+  color: white;
 }
 
 header a:hover {
@@ -226,10 +232,4 @@ ul {
   h1 {
     display: block;
   }
-}
-
-a {
-  text-decoration: none;
-  font-family: "EB Garamond", serif;
-  font-size: 1.5rem;
 }
